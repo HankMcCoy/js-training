@@ -16,6 +16,13 @@ Syntax and semantics pitfalls
 * ASI
 * Strict mode
 
+Methods worth knowing
+---------------------
+* `call`, `apply`
+* `map`, `reduce`, `forEach`
+* `Object.keys`, `Object.create`
+* `slice`, `splice`
+
 Coffeescript
 ------------
 * What it fixes
@@ -23,6 +30,7 @@ Coffeescript
 
 Organizing your code
 --------------------
+* Parameter passing
 * Modules
 * Testability
 
@@ -31,6 +39,7 @@ Tooling
 * Linters
 * Asset pipelines
 * Test suites
+* jQuery
 
 Glimpsing the future
 --------------------
@@ -44,3 +53,4 @@ References
 * [MDN](https://developer.mozilla.org/en-US/)
 * [The Little Book on Coffeescript](http://arcturo.github.io/library/coffeescript/index.html), a little out of date
 * [Javascript Javascript](http://javascriptweblog.wordpress.com/), a blog about JS
+* [Time to drop jQuery?](http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background/)
