@@ -34,17 +34,23 @@ Organizing your code
 * Modules
 * Testability
 
+Libraries
+---------
+* jQuery
+* Lodash
+* Ramda
+
 Tooling
 -------
 * Linters
 * Asset pipelines
 * Test suites
-* jQuery
 
 Glimpsing the future
 --------------------
 * ECMAScript 6
 * ECMAScript 7
+* Transpiled languages
 
 References
 ----------
@@ -52,5 +58,6 @@ References
 * [Daily JS](http://dailyjs.com)
 * [MDN](https://developer.mozilla.org/en-US/)
 * [The Little Book on Coffeescript](http://arcturo.github.io/library/coffeescript/index.html), a little out of date
+* [CoffeeScript Cookbook](http://coffeescriptcookbook.com/chapters/jquery/ajax)
 * [Javascript Javascript](http://javascriptweblog.wordpress.com/), a blog about JS
 * [Time to drop jQuery?](http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background/)
