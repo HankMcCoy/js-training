@@ -162,10 +162,24 @@ function a() {
 var b = a().foo
 ```
 
-Syntax and semantics pitfalls
------------------------------
-* 'this' semantics
-* Strict mode
+Strict Mode
+-----------
+* Introduced in ES5 as a way to opt-in to a stricter variant of JS.
+* See MDN for a [complete description](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode).
+* Changes include:
+  * Prevents accidental global variable declaration.
+  * Throws TypeErrors when attempting to assign to read-only properties.
+  * Throws TypeErrors when attempting to delete non-deletable properties.
+  * Requires that properties in object literals be unique.
+  * Requires that function parameter be unique.
+  * Prohibits octal syntax.
+  * Prohibits `with` statements.
+  * Prevents `eval` from introducing variables into the surrounding scope.
+* Introduce at the function level instead of globablly to avoid breaking 3rd-party scripts.
+
+Prototypal Inheritance
+----------------------
+* Not yet implemented
 
 Methods worth knowing
 ---------------------
@@ -190,6 +204,10 @@ Glimpsing the future
 * ECMAScript 6
 * ECMAScript 7
 * Transpiled languages
+  * CoffeeScript
+  * TypeScript (AtScript, Flow)
+  * Dart
+  * ClojureScript
 
 References
 ----------
