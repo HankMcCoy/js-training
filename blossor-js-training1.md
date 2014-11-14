@@ -73,6 +73,19 @@ Reasoning:
 
 ### Variable scoping and hoisting
 * Variables are scoped at the function level in JS.
+* To create local scope use a self-invoking function
+
+```js
+(function () {
+  // Do whatever you want to do within a local scope.
+})();
+
+// Or
+!function () {
+  // ...
+}();
+```
+
 * Variable declarations and function declaration statements are hoisted.
 
 ```js
@@ -111,11 +124,47 @@ Numbers
 Math.pow(2, 53) === Math.pow(2, 53) + 1; // true
 ```
 
+Automatic Semicolon Insertion
+-----------------------------
+* Semicolons are optional in JS.
+* Whether or not to manually insert them is a topic that insights [holy war level fervor](https://github.com/twbs/bootstrap/issues/3057).
+
+```js
+
+// Section A - everything's hunky-dorey
+var a = document.title
+function d() {
+  // ...
+}
+d()
+
+// Section B - Will throw a TypeError: number is not a function
+var a = document.title
+(function () {
+  // ...
+})();
+
+// Section C - hunky-dorey
+function a() {
+  return {
+    foo: 'bar'
+  }
+}
+var b = a().foo
+
+// Section D - Will throw a TypeError: Cannot read property 'foo' of undefined
+function a() {
+  return
+  {
+    foo: 'bar'
+  }
+}
+var b = a().foo
+```
+
 Syntax and semantics pitfalls
 -----------------------------
 * 'this' semantics
-* Numbers
-* ASI
 * Strict mode
 
 Methods worth knowing
