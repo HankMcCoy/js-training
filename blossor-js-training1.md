@@ -1,5 +1,5 @@
-JavaScript Training
-===================
+JavaScript Training - Part I
+============================
 
 A brief history of JavaScript
 -----------------------------
@@ -33,18 +33,6 @@ Organizing your code
 * Parameter passing
 * Modules
 * Testability
-
-Libraries
----------
-* jQuery
-* Lodash
-* Ramda
-
-Tooling
--------
-* Linters
-* Asset pipelines
-* Test suites
 
 Glimpsing the future
 --------------------
