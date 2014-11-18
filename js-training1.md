@@ -222,3 +222,4 @@ References
 * [ECMA 262 standards](http://www.ecma-international.org/publications/standards/Ecma-262-arch.htm)
 * [ES5 compatibility](http://kangax.github.io/compat-table/es5/)
 * [AirBNB's JS style guide](https://github.com/airbnb/javascript); includes helpful reasoning for why they chose the rules they did
+* [A critique of CoffeeScript](http://ceronman.com/2012/09/17/coffeescript-less-typing-bad-readability/)
