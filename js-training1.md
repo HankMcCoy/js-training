@@ -114,6 +114,23 @@ var bar = function () {
 
 * Takeaway: place function/variable declarations at the top of their enclosing scope when possible.
 
+### `this`
+
+Only one good use: to refer to the object the method was called on.
+
+```js
+var foo = {
+  bar: function () {
+    return this.baz;
+  },
+  baz: 'blah'
+}
+
+var bar = foo.bar;
+console.log(foo.bar() === 'blah'); // true
+console.log(bar() === 'blah');     // false
+```
+
 Numbers
 -------
 * JavaScript is bad with numbers.
